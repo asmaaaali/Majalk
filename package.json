@@ -1,0 +1,27 @@
+{
+  "name": "majalk",
+  "version": "1.0.0",
+  "description": "Majalk is a freelancing project ",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "stop": "taskkill -f -im node.exe",
+    "start": "nodemon app.js"
+  },
+  "author": "fawzy",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "epxress": "0.0.1-security",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.14",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "response-time": "^2.3.2"
+  }
+}
