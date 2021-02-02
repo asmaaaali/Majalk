@@ -35,7 +35,7 @@
 const mongoose = require("mongoose");
 (async () => {
   try {
-    await mongoose.connect("mongodb+srv://fawzy:0120975049@onlinecoursebooking-vbcbx.gcp.mongodb.net/Majalk"),
+    await mongoose.connect("mongodb+srv://maxim:0120975049@freecluster.dujbv.mongodb.net/Majalk?retryWrites=true&w=majority"), 
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
